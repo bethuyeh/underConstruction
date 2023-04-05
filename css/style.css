@@ -343,14 +343,17 @@ button a:visited{
 /* header */
 .header{
     min-height: 50vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/1.jpg) center/cover fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/settingsred.png) center/cover fixed;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
 .header h2{
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #fff;
     /* text-transform: uppercase; */
 }
