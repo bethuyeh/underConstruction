@@ -26,7 +26,7 @@ ul li{
 
 /* navbar2 */
 .wrapper{
-    background: #171c24;
+    background: #ffffff;
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -53,13 +53,14 @@ ul li{
     font-size: 30px;
     font-weight: 600;
   }
+
   .content .links li{
     list-style: none;
     line-height: 70px;
   }
   .content .links li a,
   .content .links li label{
-    color: #fff;
+    color: #0b0b0b;
     font-size: 18px;
     font-weight: 500;
     padding: 9px 17px;
@@ -71,11 +72,11 @@ ul li{
   }
   .content .links li a:hover,
   .content .links li label:hover{
-    background: #323c4e;
+    background: #372626a7;
   }
   .wrapper .search-icon,
   .wrapper .menu-icon{
-    color: #fff;
+    color: #171414;
     font-size: 18px;
     cursor: pointer;
     line-height: 70px;
@@ -134,7 +135,7 @@ ul li{
   /* Dropdown Menu code start */
   .content .links ul{
     position: absolute;
-    background: #171c24;
+    background: #f9fafc;
     top: 80px;
     z-index: -1;
     opacity: 0;
@@ -192,7 +193,7 @@ ul li{
     nav .content .links{
       display: block;
       position: fixed;
-      background: #14181f;
+      background: #f0f0f0;
       height: 100%;
       width: 100%;
       top: 70px;
@@ -346,6 +347,7 @@ button a:visited{
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(../images/settingsred.png) center/cover fixed;
     background-position: center;
     background-size: contain;
+    background-color: #323c4e;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -715,6 +717,11 @@ button a:visited{
 /* footer */
 
 @media screen and (max-width:565px){
+    .content .logo img{
+        width: auto;
+    }
+
+
     #contact{
         height: auto;
     }
@@ -741,6 +748,11 @@ button a:visited{
 
     .header-title{
         font-size: 24px;
+    }
+
+    .header .container h2{
+        font-size: 1.4rem;
+
     }
 }
 
